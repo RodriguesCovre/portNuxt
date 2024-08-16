@@ -1,17 +1,19 @@
+<script setup lang="ts">
+</script>
+
 <template>
-    <div class="container">
-        <img src="../assets/images/pngFlu.png" alt="">
-    </div>
+<header>
+    <Comeia/>
+</header>
+<main>
+    <ImgMid/>
+</main>        
 </template>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-}
-.container {
-  width: 100%;
-  height: 100vh;
+/* From Uiverse.io by kandalgaonkarshubham */ 
+html,body {
+  
   background: radial-gradient(
         circle farthest-side at 0% 50%,
         #282828 23.5%,
@@ -59,5 +61,5 @@
       #282828;
   background-size: 40px 60px;
 }
-
 </style>
+
